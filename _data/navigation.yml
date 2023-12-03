@@ -6,10 +6,10 @@ main:
     url: /tags/
   - title: "Search"
     url: /search/
-docs:
-  - title: "대목차"
-    children:
-      - title: "Category"
-        url: /categories/
-      - title: "Tag"
-        url: /tags/
+counts:
+  - title: "Category"
+    use: true
+    url: /categories/
+  - title: "Tags"
+    use: true
+    url: /tags/
