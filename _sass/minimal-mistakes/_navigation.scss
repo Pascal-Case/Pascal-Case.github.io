@@ -28,7 +28,7 @@
     font-size: $type-size-5; // 2023-12-05 jyang
 
     @include breakpoint($large) {
-      // float: right; // 2023-12-05 jyang
+      float: right; // 2023-12-05 jyang
       width: calc(100% - #{$right-sidebar-width-narrow});
     }
 
