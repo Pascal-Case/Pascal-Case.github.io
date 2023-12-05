@@ -25,10 +25,10 @@
   ol {
     padding: 0;
     list-style: none;
-    font-size: $type-size-6;
+    font-size: $type-size-5; // 2023-12-05 jyang
 
     @include breakpoint($large) {
-      float: right;
+      // float: right; // 2023-12-05 jyang
       width: calc(100% - #{$right-sidebar-width-narrow});
     }
 
@@ -568,6 +568,6 @@
   }
 
   li ul li ul li ul li ul li ul > li a {
-    padding-left: 3.25rem
+    padding-left: 3.25rem;
   }
 }
