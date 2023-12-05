@@ -38,14 +38,14 @@ body {
 .page {
   @include breakpoint($large) {
     float: right;
-    // width: calc(100% - #{$right-sidebar-width-narrow}); // 2023-12-05 jyang
-    width: calc(100%);
+    width: calc(100% - #{$right-sidebar-width-narrow}); // 2023-12-05 jyang
+    // width: calc(100%);
     padding-right: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
-    // width: calc(100% - #{$right-sidebar-width}); // 2023-12-05 jyang
-    width: calc(100%);
+    width: calc(100% - #{$right-sidebar-width}); // 2023-12-05 jyang
+    // width: calc(100%);
     padding-right: $right-sidebar-width;
   }
 
