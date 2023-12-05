@@ -3,3 +3,4 @@ gemspec
 gem "webrick", "~> 1.8"
 gem 'tzinfo'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+gem 'jekyll-sass-converter', '~> 2.2'
